@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.col-1,
+.col-2,
+.col-3{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col-2{
+    flex: 2;
+}
+
+.col-3{
+    flex: 3;
+}
+
+
+main{
+    width: 1200px;
+    height: 800px;
+    background-color: rgb(129, 93, 150);
+
+    margin: 0 auto;
+}
+nav{
+    width: 1200px;
+    height: 75px;
+    background-color: rgb(250, 234, 207);
+
+
+    /* para centrar sin flex */
+    margin: 0 auto;
+}
+
+nav h1{
+    text-align: center;
+    color: rgb(160, 119, 243);
+    font-size: 50px;
+}
+
+nav h1 span{
+    color: rgb(74, 0, 143);
+}
+
+header{
+
+    width: 1000px;
+    height: 40px;
+    background-color: #674179;
+    margin: 0 auto;
+}
+
+.enlaces{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.enlaces a:hover{
+    text-decoration: underline 2px mediumorchid;
+}
+
+
+.titulos{
+    height: 300px;
+    background-image: url(img/totoro\ fondo.jpg);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulos h1{
+    text-align: center;
+
+    color: white;
+}
+
+.kiityvaca{
+    width: 200px;
+    height: 260px;
+    border-radius: 50%;
+}
+
+.mensaje {
+    color: white;
+    background-color: rgb(170, 109, 185);
+    margin-bottom: 15px;
+}
+form{
+    width: 400px;
+    background: #674179;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+form h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: #674179;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 16px;
+    border: 1px solid rgb(66, 19, 78);
+}
+.envia{
+    color: white;
+}
+
+
+.footer {
+    position: relative;
+    width: 1200px;
+    background-color: rgb(252, 171, 185);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.icon-elem {
+    list-style: none;
+}
+
+.icon {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    display: inline-block;
+    margin: 0% 10px;
+    transition: 0.5;
+}
+
+.icon:hover {
+    transform: translateY(-10px);
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.menu-elem {
+    list-style: none;
+}
+
+
+.menu-icon {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0, 5;
+    transition: 0.3s;
+}
+
+.menu-icon:hover {
+    opacity: 1;
+    color: rgb(239, 117, 241);
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 20px;
+}
